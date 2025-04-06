@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serenity Stems Consultation Form</title>
+    <link rel="stylesheet" href="css dawg/consultations.css">
+</head>
+<body>
+
+</body>
+<header class="consultation-header">
+    <div class="logo">
+       <li><a href="homepage.html" class="button"><img src="images/serenity logo.png" width="300" alt="Serenity Stems Logo"></a></li>
+    </div>
+    <nav>
+        <ul>
+            <li> <a href="homepage.html"> Home</a></li>
+            <li> <a href="products.html"> Products</a></li>
+            <li> <a href="aboutus.html"> About Us</a></li>
+            <li> <a href="portfolio overview.html"> Portfolio</a></li>
+            <input type="text" placeholder="Search...">
+            <li> <a href="myshopping.html" class="button"><img src="images/icons/shopping cart.png" width="30"></button></a></li>
+            <li> <a href="profile page.html" class="button"><img src="images/icons/user.png" width="30"> </button></a></li>
+        </ul>
+    </nav>
+</header>
+<br>
+<br>
+<br>
+<div class="consultation-form">
+    <h1>Consultation Form</h1>
+    <form action="consultations.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" required>
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date" required>
+        <label for="time">Time:</label>
+        <input type="time" id="time" name="time" required>
+        <div class='form-row'>
+            <label for='type of contact'>Preferred Contact Method</label>
+            <select id='type of contact' name='type of contact'>
+                <option value='select'>select</option>
+                <option value='phone call'>phone call</option>
+                <option value='text'>text</option>
+                <option value='video chat'>video chat</option>
+                <option value='in store'>in store</option>
+            </select>
+        </div>    
+        <button type="submit">Submit</button>
+    </form>
+</div>
+<footer>
+   
+</html>
+
